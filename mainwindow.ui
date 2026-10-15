@@ -43,27 +43,27 @@
      <number>3</number>
     </property>
     <item>
-     <layout class="QVBoxLayout" name="verticalLayout" stretch="1,12">
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1">
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
-         <widget class="QPushButton" name="pushButton_3">
+         <widget class="QPushButton" name="btnStartRecording">
           <property name="text">
-           <string>PushButton</string>
+           <string>StartRecording</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_2">
+         <widget class="QPushButton" name="btnStopRecording">
           <property name="text">
-           <string>PushButton</string>
+           <string>StopRecording</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QLabel" name="labelVideo">
           <property name="text">
-           <string>PushButton</string>
+           <string>1</string>
           </property>
          </widget>
         </item>
@@ -86,7 +86,7 @@
      <x>0</x>
      <y>0</y>
      <width>832</width>
-     <height>20</height>
+     <height>38</height>
     </rect>
    </property>
   </widget>

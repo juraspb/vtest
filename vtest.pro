@@ -23,6 +23,9 @@ TRANSLATIONS += \
 CONFIG += lrelease
 CONFIG += embed_translations
 
+INCLUDEPATH += /usr/local/include/opencv4
+LIBS += -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_objdetect -lopencv_imgcodecs -lopencv_videoio
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
